@@ -11,6 +11,7 @@ app.use(express.json())
 app.use(cors())
 
 let userLogin = []
+let messages = []
 
 io.on('connection', (socket) => {
     console.log('a user connected')
@@ -28,6 +29,11 @@ io.on('connection', (socket) => {
     socket.on('fetchAnswer', () => {
         const data = Answer.findAll()
         io.emit('answersList', data)
+    })
+
+    socket.on('sendMessage', (msg) => {
+        messages.push(msg)
+        io.emit('messages', messages)
     })
 })
 
