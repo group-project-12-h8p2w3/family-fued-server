@@ -1,17 +1,36 @@
 const express = require('express')
 const app = express()
 const PORT = 3000
-
+const http = require('http').createServer(app)
+const io = require('socket.io')(http)
 const cors = require('cors') 
-
-const router = require('./routes/')
+const { Question, Answer } = require('./models/')
 
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
 app.use(cors())
 
-app.use(router)
+let userLogin = []
 
-app.listen(PORT, _ => {
+io.on('connection', (socket) => {
+    console.log('a user connected')
+
+    socket.on('login', (user) => {
+        userLogin.push(user)
+        io.emit('userLogin', userLogin)
+    })
+
+    socket.on('fetchQuestion', () => {
+        const data = Question.findAll()
+        io.emit('questionsList', data)
+    })
+
+    socket.on('fetchAnswer', () => {
+        const data = Answer.findAll()
+        io.emit('answersList', data)
+    })
+})
+
+http.listen(PORT, _ => {
     console.log(`running at http://localhost:${PORT}`)
 })
