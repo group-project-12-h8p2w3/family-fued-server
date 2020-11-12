@@ -1,16 +1,13 @@
 'use strict';
 
-const { query } = require("express");
 
 module.exports = {
   up: async (queryInterface, Sequelize) => {
     await queryInterface.addColumn('Answers', 'QuestionId', {
       type: Sequelize.INTEGER,
       references: {
-        model: {
-          tableName: 'Questions'
-        },
-        key: 'id'
+        model: 'Questions',
+          key: 'id'
       },
       onUpdate: 'CASCADE',
       onDelete: 'CASCADE'
@@ -19,7 +16,7 @@ module.exports = {
   },
 
   down: async (queryInterface, Sequelize) => {
-    await queryInterface.removeColumn('Answers, QuestionId')
+    await queryInterface.removeColumn('Answers', 'QuestionId')
  
   }
 };

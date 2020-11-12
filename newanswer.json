@@ -1,0 +1,77 @@
+[
+    {
+        "answer": "pipis dalam kolam",
+        "point": 32,
+        "QuestionId": 1
+    },
+    {
+        "answer": "lari ke toilet",
+        "point": 24,
+        "QuestionId": 1
+    },
+    {
+        "answer": "ditahan",
+        "point": 22,
+        "QuestionId": 1
+    },
+    {
+        "answer": "naik pinggit kolam",
+        "point": 18,
+        "QuestionId": 1
+    },
+    {
+        "answer": "pakai jaket",
+        "point": 37,
+        "QuestionId": 2
+    },
+    {
+        "answer": "makan teratur",
+        "point": 23,
+        "QuestionId": 2
+    },
+    {
+        "answer": "minum obat ",
+        "point": 15,
+        "QuestionId": 2
+    },
+    {
+        "answer": "tidak begadang",
+        "point": 9,
+        "QuestionId": 2
+    },
+    {
+        "answer": "minum air hangat",
+        "point": 4,
+        "QuestionId": 2
+    },
+    {
+        "answer": "mulut",
+        "point": 43,
+        "QuestionId": 3
+    },
+    {
+        "answer": "pipi",
+        "point": 18,
+        "QuestionId": 3
+    },
+    {
+        "answer": "perut",
+        "point": 13,
+        "QuestionId": 3
+    },
+    {
+        "answer": "bahu",
+        "point": 9,
+        "QuestionId": 3
+    },
+    {
+        "answer": "dada",
+        "point": 4,
+        "QuestionId": 3
+    },
+    {
+        "answer": "dagu",
+        "point": 3,
+        "QuestionId": 3
+    }
+]
