@@ -14,6 +14,8 @@ let userLogin = []
 let messages = []
 let questions = []
 let answers = []
+let thisRoundAnswer = []
+let answered = []
 
 io.on('connection', (socket) => {
     console.log('a user connected')
@@ -21,6 +23,18 @@ io.on('connection', (socket) => {
     socket.on('login', (user) => {
         userLogin.push(user)
         io.emit('userLogin', userLogin)
+    })
+
+    socket.on('enterGame', () => {
+        const data = userLogin.map(el => {
+            const scoreboard = {
+                username: el,
+                score: 0
+            }
+            return scoreboard
+        })
+        userLogin = []
+        io.emit('fetchEnteredUser', data)
     })
 
     socket.on('fetchQuestion', () => {
@@ -37,6 +51,8 @@ io.on('connection', (socket) => {
                 })
                 const question = questions.pop()
                 const answer = answers.pop()
+                thisRoundAnswer = answer
+                console.log(answers)
                 io.emit('questionsList', {question, answer})
             })
             .catch(err => {
@@ -48,6 +64,25 @@ io.on('connection', (socket) => {
         const question = questions.pop()
         const answer = answers.pop()
         io.emit('questionsList', {question, answer})
+    })
+
+    socket.on('compareAnswer', (payload) => {
+        let isTrue = false
+        let index
+        console.log(thisRoundAnswer)
+        for (let i = 0; i < thisRoundAnswer.length; i++) {
+            const answer = thisRoundAnswer[i].answer
+            if (answer === payload.answer) {
+                isTrue = true
+                index = i
+                answers.splice(i, 1)
+            }
+        }
+        const data = {
+            isTrue, index,
+            user: payload.user
+        }
+        io.emit('compareAnswer', data)
     })
 
     socket.on('sendMessage', (msg) => {
