@@ -12,6 +12,8 @@ app.use(cors())
 
 let userLogin = []
 let messages = []
+let questions = []
+let answers = []
 
 io.on('connection', (socket) => {
     console.log('a user connected')
@@ -22,13 +24,30 @@ io.on('connection', (socket) => {
     })
 
     socket.on('fetchQuestion', () => {
-        const data = Question.findAll()
-        io.emit('questionsList', data)
+        const option = {
+            include: Answer
+        }
+        Question.findAll(option)
+            .then(data => {
+                questions = data.map(el => {
+                    return el.question
+                })
+                answers = data.map(el => {
+                    return el.Answers
+                })
+                const question = questions.pop()
+                const answer = answers.pop()
+                io.emit('questionsList', {question, answer})
+            })
+            .catch(err => {
+                console.log(err)
+            })
     })
 
-    socket.on('fetchAnswer', () => {
-        const data = Answer.findAll()
-        io.emit('answersList', data)
+    socket.on('getQuestion', () => {
+        const question = questions.pop()
+        const answer = answers.pop()
+        io.emit('questionsList', {question, answer})
     })
 
     socket.on('sendMessage', (msg) => {
