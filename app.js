@@ -76,12 +76,8 @@ io.on('connection', (socket) => {
 
     socket.on('compareAnswer', (payload) => {
         let isTrue = false
-<<<<<<< HEAD
         let id
-        console.log(thisRoundAnswer)
-=======
-        let index
->>>>>>> 896d29d2e45b52db8dd890b1527a6de84994defb
+
         for (let i = 0; i < thisRoundAnswer.length; i++) {
             const answer = thisRoundAnswer[i].answer.toLowerCase()
             const thisId = thisRoundAnswer[i].id
