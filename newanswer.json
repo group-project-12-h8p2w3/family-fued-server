@@ -73,5 +73,2356 @@
         "answer": "dagu",
         "point": 3,
         "QuestionId": 3
+    },
+    {
+        "answer": "Maen Hp",
+        "point": 43,
+        "QuestionId": 4
+    },
+    {
+        "answer": "Baca buku",
+        "point": 34,
+        "QuestionId": 4
+    },
+    {
+        "answer": "Merokok",
+        "point": 11,
+        "QuestionId": 4
+    },
+    {
+        "answer": "dengerin musik",
+        "point": 7,
+        "QuestionId": 4
+    },
+    {
+        "answer": "Tidur",
+        "point": 39,
+        "QuestionId": 5
+    },
+    {
+        "answer": "Ngopi",
+        "point": 28,
+        "QuestionId": 5
+    },
+    {
+        "answer": "Makan",
+        "point": 13,
+        "QuestionId": 5
+    },
+    {
+        "answer": "Minum teh",
+        "point": 8,
+        "QuestionId": 5
+    },
+    {
+        "answer": "Pelukan",
+        "point": 5,
+        "QuestionId": 5
+    },
+    {
+        "answer": "Demam",
+        "point": 39,
+        "QuestionId": 6
+    },
+    {
+        "answer": "Pusing",
+        "point": 28,
+        "QuestionId": 6
+    },
+    {
+        "answer": "Bintik Merah",
+        "point": 21,
+        "QuestionId": 6
+    },
+    {
+        "answer": "Badan Lemas",
+        "point": 8,
+        "QuestionId": 6
+    },
+    {
+        "answer": "Panas tinggi",
+        "point": 4,
+        "QuestionId": 6
+    },
+    {
+        "answer": "Jaws",
+        "point": 46,
+        "QuestionId": 7
+    },
+    {
+        "answer": "sharks",
+        "point": 27,
+        "QuestionId": 7
+    },
+    {
+        "answer": "Dilan 1991",
+        "point": 5,
+        "QuestionId": 7
+    },
+    {
+        "answer": "Ada Apa Dengan Cinta",
+        "point": 8,
+        "QuestionId": 7
+    },
+    {
+        "answer": "Nemo",
+        "point": 4,
+        "QuestionId": 7
+    },
+    {
+        "answer": "Kalung",
+        "point": 34,
+        "QuestionId": 8
+    },
+    {
+        "answer": "Cincin",
+        "point": 22,
+        "QuestionId": 8
+    },
+    {
+        "answer": "Gelang",
+        "point": 14,
+        "QuestionId": 8
+    },
+    {
+        "answer": "Batu",
+        "point": 13,
+        "QuestionId": 8
+    },
+    {
+        "answer": "Tindik",
+        "point": 10,
+        "QuestionId": 8
+    },
+    {
+        "answer": "Kuburan",
+        "point": 34,
+        "QuestionId": 9
+    },
+    {
+        "answer": "Goa",
+        "point": 20,
+        "QuestionId": 9
+    },
+    {
+        "answer": "Gunung salak",
+        "point": 19,
+        "QuestionId": 9
+    },
+    {
+        "answer": "Hutan",
+        "point": 13,
+        "QuestionId": 9
+    },
+    {
+        "answer": "Rumah hantu",
+        "point": 30,
+        "QuestionId": 9
+    },
+    {
+        "answer": "Masker",
+        "point": 28,
+        "QuestionId": 10
+    },
+    {
+        "answer": "Peci",
+        "point": 21,
+        "QuestionId": 10
+    },
+    {
+        "answer": "STNK",
+        "point": 19,
+        "QuestionId": 10
+    },
+    {
+        "answer": "SIM",
+        "point": 13,
+        "QuestionId": 10
+    },
+    {
+        "answer": "Kacamata",
+        "point": 9,
+        "QuestionId": 10
+    },
+    {
+        "answer": "Hutan",
+        "point": 35,
+        "QuestionId": 11
+    },
+    {
+        "answer": "Kayu",
+        "point": 21,
+        "QuestionId": 11
+    },
+    {
+        "answer": "Dayak",
+        "point": 16,
+        "QuestionId": 11
+    },
+    {
+        "answer": "Sungai",
+        "point": 8,
+        "QuestionId": 11
+    },
+    {
+        "answer": "Khatulistiwa",
+        "point": 5,
+        "QuestionId": 11
+    },
+    {
+        "answer": "Pisang",
+        "point": 35,
+        "QuestionId": 12
+    },
+    {
+        "answer": "Cemara",
+        "point": 31,
+        "QuestionId": 12
+    },
+    {
+        "answer": "Singkong",
+        "point": 14,
+        "QuestionId": 12
+    },
+    {
+        "answer": "Kelapa",
+        "point": 8,
+        "QuestionId": 12
+    },
+    {
+        "answer": "Selada",
+        "point": 5,
+        "QuestionId": 12
+    },
+    {
+        "answer": "Pekerjaan",
+        "point": 35,
+        "QuestionId": 13
+    },
+    {
+        "answer": "Alamat Rumah",
+        "point": 31,
+        "QuestionId": 13
+    },
+    {
+        "answer": "Pendidikan",
+        "point": 14,
+        "QuestionId": 13
+    },
+    {
+        "answer": "Asal",
+        "point": 8,
+        "QuestionId": 13
+    },
+    {
+        "answer": "Keseriusan",
+        "point": 5,
+        "QuestionId": 13
+    },
+    {
+        "answer": "Deposito",
+        "point": 42,
+        "QuestionId": 14
+    },
+    {
+        "answer": "Kartu Kredit",
+        "point": 15,
+        "QuestionId": 14
+    },
+    {
+        "answer": "Asuransi",
+        "point": 12,
+        "QuestionId": 14
+    },
+    {
+        "answer": "Kpr",
+        "point": 11,
+        "QuestionId": 14
+    },
+    {
+        "answer": "Giro",
+        "point": 9,
+        "QuestionId": 14
+    },
+    {
+        "answer": "Supra",
+        "point": 38,
+        "QuestionId": 15
+    },
+    {
+        "answer": "Kharisma",
+        "point": 26,
+        "QuestionId": 15
+    },
+    {
+        "answer": "Bebek 70",
+        "point": 20,
+        "QuestionId": 15
+    },
+    {
+        "answer": "Legenda",
+        "point": 9,
+        "QuestionId": 15
+    },
+    {
+        "answer": "Prima",
+        "point": 5,
+        "QuestionId": 15
+    },
+    {
+        "answer": "Lari",
+        "point": 40,
+        "QuestionId": 16
+    },
+    {
+        "answer": "KhTeriakarisma",
+        "point": 31,
+        "QuestionId": 16
+    },
+    {
+        "answer": "Pingsan",
+        "point": 14,
+        "QuestionId": 16
+    },
+    {
+        "answer": "Loncat",
+        "point": 8,
+        "QuestionId": 16
+    },
+    {
+        "answer": "Kaget",
+        "point": 7,
+        "QuestionId": 16
+    },
+    {
+        "answer": "Warnet",
+        "point": 39,
+        "QuestionId": 17
+    },
+    {
+        "answer": "Rumah",
+        "point": 21,
+        "QuestionId": 17
+    },
+    {
+        "answer": "Kantor",
+        "point": 17,
+        "QuestionId": 17
+    },
+    {
+        "answer": "Sekolah",
+        "point": 10,
+        "QuestionId": 17
+    },
+    {
+        "answer": "Rumah Teman",
+        "point": 7,
+        "QuestionId": 17
+    },
+    {
+        "answer": "Berisik",
+        "point": 39,
+        "QuestionId": 18
+    },
+    {
+        "answer": "Ponsel Bunyi",
+        "point": 21,
+        "QuestionId": 18
+    },
+    {
+        "answer": "Mojok",
+        "point": 17,
+        "QuestionId": 18
+    },
+    {
+        "answer": "Merekam",
+        "point": 10,
+        "QuestionId": 18
+    },
+    {
+        "answer": "Makan teman",
+        "point": 7,
+        "QuestionId": 18
+    },
+    {
+        "answer": "Bioskop",
+        "point": 39,
+        "QuestionId": 19
+    },
+    {
+        "answer": "Pantai",
+        "point": 21,
+        "QuestionId": 19
+    },
+    {
+        "answer": "Jembatan Kalibata",
+        "point": 17,
+        "QuestionId": 19
+    },
+    {
+        "answer": "Warnet",
+        "point": 10,
+        "QuestionId": 19
+    },
+    {
+        "answer": "Rumah",
+        "point": 7,
+        "QuestionId": 19
+    },
+    {
+        "answer": "Monas",
+        "point": 39,
+        "QuestionId": 20
+    },
+    {
+        "answer": "PRJ",
+        "point": 21,
+        "QuestionId": 20
+    },
+    {
+        "answer": "Betawi",
+        "point": 17,
+        "QuestionId": 20
+    },
+    {
+        "answer": "Ibukota",
+        "point": 10,
+        "QuestionId": 20
+    },
+    {
+        "answer": "DPR/MPR",
+        "point": 7,
+        "QuestionId": 20
+    },
+    {
+        "answer": "Toilet",
+        "point": 39,
+        "QuestionId": 21
+    },
+    {
+        "answer": "Kaca",
+        "point": 21,
+        "QuestionId": 21
+    },
+    {
+        "answer": "Lemari",
+        "point": 17,
+        "QuestionId": 21
+    },
+    {
+        "answer": "Pohon",
+        "point": 10,
+        "QuestionId": 21
+    },
+    {
+        "answer": "DPR/Kuburan",
+        "point": 7,
+        "QuestionId": 21
+    },
+    {
+        "answer": "Buaya",
+        "point": 39,
+        "QuestionId": 22
+    },
+    {
+        "answer": "Ikan",
+        "point": 21,
+        "QuestionId": 22
+    },
+    {
+        "answer": "Kodok",
+        "point": 17,
+        "QuestionId": 22
+    },
+    {
+        "answer": "Ular",
+        "point": 10,
+        "QuestionId": 22
+    },
+    {
+        "answer": "Kadal",
+        "point": 7,
+        "QuestionId": 22
+    },
+    {
+        "answer": "Ganteng",
+        "point": 39,
+        "QuestionId": 23
+    },
+    {
+        "answer": "Sayang",
+        "point": 21,
+        "QuestionId": 23
+    },
+    {
+        "answer": "Cinta",
+        "point": 17,
+        "QuestionId": 23
+    },
+    {
+        "answer": "Kaya",
+        "point": 10,
+        "QuestionId": 23
+    },
+    {
+        "answer": "Cantik",
+        "point": 7,
+        "QuestionId": 23
+    },
+    {
+        "answer": "Kertas",
+        "point": 39,
+        "QuestionId": 24
+    },
+    {
+        "answer": "Tinta",
+        "point": 21,
+        "QuestionId": 24
+    },
+    {
+        "answer": "Printer",
+        "point": 17,
+        "QuestionId": 24
+    },
+    {
+        "answer": "Cartridge",
+        "point": 10,
+        "QuestionId": 24
+    },
+    {
+        "answer": "spidol",
+        "point": 7,
+        "QuestionId": 24
+    },
+    {
+        "answer": "Toba",
+        "point": 39,
+        "QuestionId": 25
+    },
+    {
+        "answer": "Gajah mungkur",
+        "point": 21,
+        "QuestionId": 25
+    },
+    {
+        "answer": "Jatiluhur",
+        "point": 17,
+        "QuestionId": 25
+    },
+    {
+        "answer": "Towuri",
+        "point": 10,
+        "QuestionId": 25
+    },
+    {
+        "answer": "Amazon",
+        "point": 7,
+        "QuestionId": 25
+    },
+    {
+        "answer": "Kopi",
+        "point": 39,
+        "QuestionId": 26
+    },
+    {
+        "answer": "Susu",
+        "point": 21,
+        "QuestionId": 26
+    },
+    {
+        "answer": "Teh",
+        "point": 17,
+        "QuestionId": 26
+    },
+    {
+        "answer": "Bandrek",
+        "point": 10,
+        "QuestionId": 26
+    },
+    {
+        "answer": "Sekuteng",
+        "point": 7,
+        "QuestionId": 26
+    },
+    {
+        "answer": "Badak bercula dua",
+        "point": 39,
+        "QuestionId": 27
+    },
+    {
+        "answer": "Cendrawasih",
+        "point": 21,
+        "QuestionId": 27
+    },
+    {
+        "answer": "Komodo",
+        "point": 17,
+        "QuestionId": 27
+    },
+    {
+        "answer": "Burung kasuari",
+        "point": 10,
+        "QuestionId": 27
+    },
+    {
+        "answer": "Merpati",
+        "point": 7,
+        "QuestionId": 27
+    },
+    {
+        "answer": "Kacang Panjang",
+        "point": 39,
+        "QuestionId": 28
+    },
+    {
+        "answer": "Kangkung",
+        "point": 21,
+        "QuestionId": 28
+    },
+    {
+        "answer": "toge",
+        "point": 17,
+        "QuestionId": 28
+    },
+    {
+        "answer": "bayam",
+        "point": 10,
+        "QuestionId": 28
+    },
+    {
+        "answer": "selada",
+        "point": 7,
+        "QuestionId": 28
+    },
+    {
+
+        "answer": "Ular",
+        "point": 39,
+        "QuestionId": 29
+    },
+    {
+        "answer": "Kelabang",
+        "point": 21,
+        "QuestionId": 29
+    },
+    {
+        "answer": "Laba-laba",
+        "point": 17,
+        "QuestionId": 29
+    },
+    {
+        "answer": "Tawon",
+        "point": 10,
+        "QuestionId": 29
+    },
+    {
+        "answer": "Tiang Listrik",
+        "point": 39,
+        "QuestionId": 30
+    },
+    {
+        "answer": "Mobil",
+        "point": 21,
+        "QuestionId": 30
+    },
+    {
+        "answer": "Kursi",
+        "point": 17,
+        "QuestionId": 30
+    },
+    {
+        "answer": "Pintu",
+        "point": 10,
+        "QuestionId": 30
+    },  
+    {
+        "answer": "Tembok",
+        "point": 7,
+        "QuestionId": 30
+    },
+    {
+        "answer": "Ivan lendle",
+        "point": 32,
+        "QuestionId": 31
+    },
+    {
+        "answer": "roger federer",
+        "point": 24,
+        "QuestionId": 31
+    },
+    {
+        "answer": "pete sampras",
+        "point": 22,
+        "QuestionId": 31
+    },
+    {
+        "answer": "boris becker",
+        "point": 18,
+        "QuestionId": 31
+    },
+    {
+        "answer": "jhon mc enroe",
+        "point": 37,
+        "QuestionId": 31
+    },
+    {
+        "answer": "Sule",
+        "point": 23,
+        "QuestionId": 32
+    },
+    {
+        "answer": "Andre",
+        "point": 15,
+        "QuestionId": 32
+    },
+    {
+        "answer": "Parto",
+        "point": 9,
+        "QuestionId": 32
+    },
+    {
+        "answer": "Nunung",
+        "point": 4,
+        "QuestionId": 32
+    },
+    {
+        "answer": "Aziz",
+        "point": 43,
+        "QuestionId": 32
+    },
+    {
+        "answer": "Koran",
+        "point": 18,
+        "QuestionId": 33
+    },
+    {
+        "answer": "Kacang",
+        "point": 13,
+        "QuestionId": 33
+    },
+    {
+        "answer": "Tisu",
+        "point": 9,
+        "QuestionId": 33
+    },
+    {
+        "answer": "Rokok",
+        "point": 4,
+        "QuestionId": 33
+    },
+    {
+        "answer": "Minuman Alkohol",
+        "point": 3,
+        "QuestionId": 33
+    },
+    {
+        "answer": "Pramuka",
+        "point": 43,
+        "QuestionId": 34
+    },
+    {
+        "answer": "Basket",
+        "point": 34,
+        "QuestionId": 34
+    },
+    {
+        "answer": "Beladiri",
+        "point": 11,
+        "QuestionId": 34
+    },
+    {
+        "answer": "renang",
+        "point": 7,
+        "QuestionId": 34
+    },
+    {
+        "answer": "Tidur",
+        "point": 39,
+        "QuestionId": 34
+    },
+    {
+        "answer": "Anggur",
+        "point": 28,
+        "QuestionId": 35
+    },
+    {
+        "answer": "Jeruk",
+        "point": 13,
+        "QuestionId": 35
+    },
+    {
+        "answer": "Melon",
+        "point": 8,
+        "QuestionId": 35
+    },
+    {
+        "answer": "Mangga",
+        "point": 5,
+        "QuestionId": 35
+    },
+    {
+        "answer": "belimbing",
+        "point": 39,
+        "QuestionId": 35
+    },
+    {
+        "answer": "Dokter",
+        "point": 28,
+        "QuestionId": 36
+    },
+    {
+        "answer": "Perawat",
+        "point": 21,
+        "QuestionId": 36
+    },
+    {
+        "answer": "Pasien",
+        "point": 8,
+        "QuestionId": 36
+    },
+    {
+        "answer": "Jarum Suntik",
+        "point": 4,
+        "QuestionId": 36
+    },
+    {
+        "answer": "Mayat",
+        "point": 46,
+        "QuestionId": 36
+    },
+    {
+        "answer": "Tapak sakti",
+        "point": 27,
+        "QuestionId": 37
+    },
+    {
+        "answer": "Kungu Boy",
+        "point": 5,
+        "QuestionId": 37
+    },
+    {
+        "answer": "Tiger wong",
+        "point": 8,
+        "QuestionId": 37
+    },
+    {
+        "answer": "Legenda anak Naga",
+        "point": 4,
+        "QuestionId": 37
+    },
+    {
+        "answer": "Putra Langit",
+        "point": 34,
+        "QuestionId": 37
+    },
+    {
+        "answer": "New York",
+        "point": 22,
+        "QuestionId": 38
+    },
+    {
+        "answer": "Los Angeles",
+        "point": 14,
+        "QuestionId": 38
+    },
+    {
+        "answer": "Orlando",
+        "point": 13,
+        "QuestionId": 38
+    },
+    {
+        "answer": "Las Vegas",
+        "point": 10,
+        "QuestionId": 38
+    },
+    {
+        "answer": "Texas",
+        "point": 34,
+        "QuestionId": 38
+    },
+    {
+        "answer": "Uang",
+        "point": 20,
+        "QuestionId": 39
+    },
+    {
+        "answer": "Dompet",
+        "point": 19,
+        "QuestionId": 39
+    },
+    {
+        "answer": "HP",
+        "point": 13,
+        "QuestionId": 39
+    },
+    {
+        "answer": "Cincin",
+        "point": 30,
+        "QuestionId": 39
+    },
+    {
+        "answer": "Korek Api",
+        "point": 28,
+        "QuestionId": 39
+    },
+    {
+        "answer": "Bebek",
+        "point": 21,
+        "QuestionId": 40
+    },
+    {
+        "answer": "Ayam",
+        "point": 19,
+        "QuestionId": 40
+    },
+    {
+        "answer": "Burung",
+        "point": 13,
+        "QuestionId": 40
+    },
+    {
+        "answer": "Kepiting",
+        "point": 9,
+        "QuestionId": 40
+    },
+    {
+        "answer": "Buaya",
+        "point": 35,
+        "QuestionId": 40
+    },
+    {
+        "answer": "Hutan",
+        "point": 21,
+        "QuestionId": 41
+    },
+    {
+        "answer": "Kayu",
+        "point": 16,
+        "QuestionId": 41
+    },
+    {
+        "answer": "Dayak",
+        "point": 8,
+        "QuestionId": 41
+    },
+    {
+        "answer": "Sungai",
+        "point": 5,
+        "QuestionId": 41
+    },
+    {
+        "answer": "Meja",
+        "point": 31,
+        "QuestionId": 42
+    },
+    {
+        "answer": "Kursi",
+        "point": 14,
+        "QuestionId": 42
+    },
+    {
+        "answer": "Komputer",
+        "point": 8,
+        "QuestionId": 42
+    },
+    {
+        "answer": "Bawahan",
+        "point": 5,
+        "QuestionId": 42
+    },
+    {
+        "answer": "Ruang Rapat",
+        "point": 5,
+        "QuestionId": 42
+    },
+    {
+        "answer": "Lilin",
+        "point": 31,
+        "QuestionId": 43
+    },
+    {
+        "answer": "Lampu",
+        "point": 14,
+        "QuestionId": 43
+    },
+    {
+        "answer": "Matahari",
+        "point": 8,
+        "QuestionId": 43
+    },
+    {
+        "answer": "Bulan",
+        "point": 5,
+        "QuestionId": 43
+    },
+    {
+        "answer": "Bintang",
+        "point": 3,
+        "QuestionId": 43
+    },
+    {
+        "answer": "Dokter",
+        "point": 30,
+        "QuestionId": 44
+    },
+    {
+        "answer": "Presiden",
+        "point": 12,
+        "QuestionId": 44
+    },
+    {
+        "answer": "Polisi",
+        "point": 11,
+        "QuestionId": 44
+    },
+    {
+        "answer": "Tentara",
+        "point": 9,
+        "QuestionId": 44
+    },
+    {
+        "answer": "Guru",
+        "point": 7,
+        "QuestionId": 44
+    },
+    {
+        "answer": "Peluit",
+        "point": 34,
+        "QuestionId": 45
+    },
+    {
+        "answer": "Bendera",
+        "point": 20,
+        "QuestionId": 45
+    },
+    {
+        "answer": "Kartu Merah",
+        "point": 9,
+        "QuestionId": 45
+    },
+    {
+        "answer": "Kartun kuning",
+        "point": 5,
+        "QuestionId": 45
+    },
+    {
+        "answer": "Jam tangan",
+        "point": 9,
+        "QuestionId": 45
+    },
+    {
+        "answer": "Putri salju",
+        "point": 31,
+        "QuestionId": 46
+    },
+    {
+        "answer": "Lidah k ucing",
+        "point": 14,
+        "QuestionId": 46
+    },
+    {
+        "answer": "Nastar",
+        "point": 8,
+        "QuestionId": 46
+    },
+    {
+        "answer": "Butter",
+        "point": 7,
+        "QuestionId": 46
+    },
+    {
+        "answer": "Kastangel",
+        "point": 39,
+        "QuestionId": 46
+    },
+    {
+        "answer": "Daster",
+        "point": 21,
+        "QuestionId": 47
+    },
+    {
+        "answer": "Kaos",
+        "point": 17,
+        "QuestionId": 47
+    },
+    {
+        "answer": "Oblong",
+        "point": 10,
+        "QuestionId": 47
+    },
+    {
+        "answer": "Jass",
+        "point": 7,
+        "QuestionId": 47
+    },
+    {
+        "answer": "Kemeja",
+        "point": 39,
+        "QuestionId": 47
+    },
+    {
+        "answer": "Mie",
+        "point": 21,
+        "QuestionId": 48
+    },
+    {
+        "answer": "Nasi goreng",
+        "point": 17,
+        "QuestionId": 48
+    },
+    {
+        "answer": "ayam goreng",
+        "point": 10,
+        "QuestionId": 48
+    },
+    {
+        "answer": "Roti",
+        "point": 7,
+        "QuestionId": 48
+    },
+    {
+        "answer": "Sosis",
+        "point": 5,
+        "QuestionId": 48
+    },
+    {
+        "answer": "Sisir",
+        "point": 21,
+        "QuestionId": 49
+    },
+    {
+        "answer": "Sampo",
+        "point": 17,
+        "QuestionId": 49
+    },
+    {
+        "answer": "Minyak rambut",
+        "point": 10,
+        "QuestionId": 49
+    },
+    {
+        "answer": "Pengering rambut",
+        "point": 7,
+        "QuestionId": 49
+    },
+    {
+        "answer": "Tidur",
+        "point": 21,
+        "QuestionId": 50
+    },
+    {
+        "answer": "Makan",
+        "point": 17,
+        "QuestionId": 50
+    },
+    {
+        "answer": "Minum",
+        "point": 10,
+        "QuestionId": 50
+    },
+    {
+        "answer": "Istirahat",
+        "point": 7,
+        "QuestionId": 50
+    },
+    {
+        "answer": "SPA",
+        "point": 17,
+        "QuestionId": 50
+    },
+    {
+        "answer": "Pembalut",
+        "point": 21,
+        "QuestionId": 51
+    },
+    {
+        "answer": "Tisu",
+        "point": 17,
+        "QuestionId": 51
+    },
+    {
+        "answer": "Popok Bayi",
+        "point": 10,
+        "QuestionId": 51
+    },
+    {
+        "answer": "Korek Api",
+        "point": 7,
+        "QuestionId": 51
+    },
+    {
+        "answer": "Teh Celup",
+        "point": 12,
+        "QuestionId": 51
+    },
+    {
+        "answer": "Disiran",
+        "point": 21,
+        "QuestionId": 52
+    },
+    {
+        "answer": "Cuci tangan",
+        "point": 17,
+        "QuestionId": 52
+    },
+    {
+        "answer": "rapikan pakaian",
+        "point": 10,
+        "QuestionId": 52
+    },
+    {
+        "answer": "cek barang",
+        "point": 7,
+        "QuestionId": 52
+    },
+    {
+        "answer": "Ngaca",
+        "point": 12,
+        "QuestionId": 52
+    },
+    {
+        "answer": "Hyatt",
+        "point": 21,
+        "QuestionId": 53
+    },
+    {
+        "answer": "Sheraton",
+        "point": 17,
+        "QuestionId": 53
+    },
+    {
+        "answer": "SHangrilla",
+        "point": 10,
+        "QuestionId": 53
+    },
+    {
+        "answer": "Jw Marriot",
+        "point": 7,
+        "QuestionId": 53
+    },
+    {
+        "answer": "Majapahit",
+        "point": 39,
+        "QuestionId": 53
+    },
+    {
+        "answer": "Tarzan",
+        "point": 21,
+        "QuestionId": 54
+    },
+    {
+        "answer": "Scooby doo",
+        "point": 17,
+        "QuestionId": 54
+    },
+    {
+        "answer": "Masha",
+        "point": 10,
+        "QuestionId": 54
+    },
+    {
+        "answer": "Dora",
+        "point": 7,
+        "QuestionId": 54
+    },
+    {
+        "answer": "Tintin",
+        "point": 12,
+        "QuestionId": 54
+    },
+    {
+        "answer": "Kacang Hitam",
+        "point": 21,
+        "QuestionId": 55
+    },
+    {
+        "answer": "Coklat",
+        "point": 17,
+        "QuestionId": 55
+    },
+    {
+        "answer": "Daging",
+        "point": 10,
+        "QuestionId": 55
+    },
+    {
+        "answer": "Kentang",
+        "point": 7,
+        "QuestionId": 55
+    },
+    {
+        "answer": "Prada",
+        "point": 21,
+        "QuestionId": 56
+    },
+    {
+        "answer": "Pratu",
+        "point": 17,
+        "QuestionId": 56
+    },
+    {
+        "answer": "Praka",
+        "point": 10,
+        "QuestionId": 56
+    },
+    {
+        "answer": "Kopka",
+        "point": 7,
+        "QuestionId": 56
+    },
+    {
+        "answer": "Kopda",
+        "point": 8,
+        "QuestionId": 56
+    },
+    {
+        "answer": "Jaipong",
+        "point": 21,
+        "QuestionId": 57
+    },
+    {
+        "answer": "Kecak",
+        "point": 17,
+        "QuestionId": 57
+    },
+    {
+        "answer": "Piring",
+        "point": 10,
+        "QuestionId": 57
+    },
+    {
+        "answer": "Lilin",
+        "point": 7,
+        "QuestionId": 57
+    },
+    {
+        "answer": "Kertas",
+        "point": 21,
+        "QuestionId": 58
+    },
+    {
+        "answer": "Pulpen",
+        "point": 17,
+        "QuestionId": 58
+    },
+    {
+        "answer": "Pensil",
+        "point": 10,
+        "QuestionId": 58
+    },
+    {
+        "answer": "Mesin Ketik",
+        "point": 7,
+        "QuestionId": 58
+    },
+    {
+        "answer": "Printer",
+        "point": 12,
+        "QuestionId": 58
+    },
+    {
+        "answer": "Barang mewah",
+        "point": 33,
+        "QuestionId": 59
+    },
+    {
+        "answer": "Bumi dan bangunan",
+        "point": 17,
+        "QuestionId": 59
+    },
+    {
+        "answer": "Undian",
+        "point": 10,
+        "QuestionId": 59
+    },
+    {
+        "answer": "Pembelian",
+        "point": 7,
+        "QuestionId": 59
+    },
+    {
+        "answer": "Penghasilan",
+        "point": 14,
+        "QuestionId": 59
+    },
+    {
+        "answer": "Bobo",
+        "point": 21,
+        "QuestionId": 60
+    },
+    {
+        "answer": "Anaku",
+        "point": 17,
+        "QuestionId": 60
+    },
+    {
+        "answer": "Berdi",
+        "point": 10,
+        "QuestionId": 60
+    },
+    {
+        "answer": "Ayah Bunda",
+        "point": 7,
+        "QuestionId": 60
+    },
+    {
+        "answer": "Adzkia Indonesia",
+        "point": 32,
+        "QuestionId": 60
+    },
+    {
+        "answer": "Internet",
+        "point": 39,
+        "QuestionId": 61
+    },
+    {
+        "answer": "Main Game",
+        "point": 22,
+        "QuestionId": 61
+    },
+    {
+        "answer": "Belajar",
+        "point": 18,
+        "QuestionId": 61
+    },
+    {
+        "answer": "Kerja",
+        "point": 7,
+        "QuestionId": 61
+    },
+    {
+        "answer": "Nonton",
+        "point": 2,
+        "QuestionId": 61
+    },
+    {
+        "answer": "Sepatu",
+        "point": 43,
+        "QuestionId": 62
+    },
+    {
+        "answer": "Pakaian Dalam",
+        "point": 24,
+        "QuestionId": 62
+    },
+    {
+        "answer": "Tas",
+        "point": 14,
+        "QuestionId": 62
+    },
+    {
+        "answer": "Celana",
+        "point": 5,
+        "QuestionId": 62
+    },
+    {
+        "answer": "Pulpen",
+        "point": 4,
+        "QuestionId": 62
+    },
+    {
+        "answer": "Presiden",
+        "point": 34,
+        "QuestionId": 63
+    },
+    {
+        "answer": "Artis",
+        "point": 23,
+        "QuestionId": 63
+    },
+    {
+        "answer": "Pejabat",
+        "point": 12,
+        "QuestionId": 63
+    },
+    {
+        "answer": "Dosen",
+        "point": 4,
+        "QuestionId": 63
+    },
+    {
+        "answer": "Direksi",
+        "point": 3,
+        "QuestionId": 63
+    },
+    {
+        "answer": "Hujan",
+        "point": 43,
+        "QuestionId": 64
+    },
+    {
+        "answer": "Malas",
+        "point": 34,
+        "QuestionId": 64
+    },
+    {
+        "answer": "Ada Urusan",
+        "point": 11,
+        "QuestionId": 64
+    },
+    {
+        "answer": "Jauh",
+        "point": 7,
+        "QuestionId": 64
+    },
+    {
+        "answer": "Kemalaman",
+        "point": 7,
+        "QuestionId": 64
+    },
+    {
+        "answer": "bridgestone",
+        "point": 39,
+        "QuestionId": 65
+    },
+    {
+        "answer": "federal",
+        "point": 28,
+        "QuestionId": 65
+    },
+    {
+        "answer": "gt radial",
+        "point": 13,
+        "QuestionId": 65
+    },
+    {
+        "answer": "cordovan",
+        "point": 8,
+        "QuestionId": 65
+    },
+    {
+        "answer": "goodyear",
+        "point": 5,
+        "QuestionId": 65
+    },
+    {
+        "answer": "harrier",
+        "point": 39,
+        "QuestionId": 66
+    },
+    {
+        "answer": "Land cruiser",
+        "point": 28,
+        "QuestionId": 66
+    },
+    {
+        "answer": "fortuner",
+        "point": 21,
+        "QuestionId": 66
+    },
+    {
+        "answer": "camry",
+        "point": 8,
+        "QuestionId": 66
+    },
+    {
+        "answer": "rush",
+        "point": 4,
+        "QuestionId": 66
+    },
+    {
+        "answer": "Kipas Angin",
+        "point": 46,
+        "QuestionId": 67
+    },
+    {
+        "answer": "Jam dinding",
+        "point": 27,
+        "QuestionId": 67
+    },
+    {
+        "answer": "Kursi",
+        "point": 5,
+        "QuestionId": 67
+    },
+    {
+        "answer": "CD Player",
+        "point": 8,
+        "QuestionId": 67
+    },
+    {
+        "answer": "Blender",
+        "point": 4,
+        "QuestionId": 67
+    },
+    {
+        "answer": "Nil",
+        "point": 34,
+        "QuestionId": 68
+    },
+    {
+        "answer": "Amazon",
+        "point": 22,
+        "QuestionId": 68
+    },
+    {
+        "answer": "mississippi",
+        "point": 14,
+        "QuestionId": 68
+    },
+    {
+        "answer": "changjiang",
+        "point": 13,
+        "QuestionId": 68
+    },
+    {
+        "answer": "huang he",
+        "point": 10,
+        "QuestionId": 68
+    },
+    {
+        "answer": "merah",
+        "point": 34,
+        "QuestionId": 69
+    },
+    {
+        "answer": "putih",
+        "point": 20,
+        "QuestionId": 69
+    },
+    {
+        "answer": "kuning",
+        "point": 19,
+        "QuestionId": 69
+    },
+    {
+        "answer": "jingga",
+        "point": 13,
+        "QuestionId": 69
+    },
+    {
+        "answer": "orange",
+        "point": 30,
+        "QuestionId": 69
+    },
+    {
+        "answer": "Ram",
+        "point": 28,
+        "QuestionId": 70
+    },
+    {
+        "answer": "CPU",
+        "point": 21,
+        "QuestionId": 70
+    },
+    {
+        "answer": "Mouse",
+        "point": 19,
+        "QuestionId": 70
+    },
+    {
+        "answer": "Keyboard",
+        "point": 13,
+        "QuestionId": 70
+    },
+    {
+        "answer": "Monitor",
+        "point": 9,
+        "QuestionId": 70
+    },
+    {
+        "answer": "angkat beban berat",
+        "point": 35,
+        "QuestionId": 71
+    },
+    {
+        "answer": "olah raga",
+        "point": 21,
+        "QuestionId": 71
+    },
+    {
+        "answer": "jatuh",
+        "point": 16,
+        "QuestionId": 71
+    },
+    {
+        "answer": "salah duduk",
+        "point": 8,
+        "QuestionId": 71
+    },
+    {
+        "answer": "Lemper",
+        "point": 35,
+        "QuestionId": 72
+    },
+    {
+        "answer": "Nagasari",
+        "point": 31,
+        "QuestionId": 72
+    },
+    {
+        "answer": "Lupis",
+        "point": 14,
+        "QuestionId": 72
+    },
+    {
+        "answer": "Onde-onde",
+        "point": 8,
+        "QuestionId": 72
+    },
+    {
+        "answer": "Alamat",
+        "point": 35,
+        "QuestionId": 73
+    },
+    {
+        "answer": "Hari",
+        "point": 31,
+        "QuestionId": 73
+    },
+    {
+        "answer": "Nama Pengantin",
+        "point": 14,
+        "QuestionId": 73
+    },
+    {
+        "answer": "Susunan Acara",
+        "point": 8,
+        "QuestionId": 73
+    },
+    {
+        "answer": "Jam",
+        "point": 5,
+        "QuestionId": 73
+    },
+    {
+        "answer": "Seruling",
+        "point": 42,
+        "QuestionId": 74
+    },
+    {
+        "answer": "Angklung",
+        "point": 15,
+        "QuestionId": 74
+    },
+    {
+        "answer": "Gendang",
+        "point": 12,
+        "QuestionId": 74
+    },
+    {
+        "answer": "Kolintang",
+        "point": 11,
+        "QuestionId": 74
+    },
+    {
+        "answer": "Gamelan",
+        "point": 9,
+        "QuestionId": 74
+    },
+    {
+        "answer": "Makan",
+        "point": 38,
+        "QuestionId": 75
+    },
+    {
+        "answer": "Menguap",
+        "point": 26,
+        "QuestionId": 75
+    },
+    {
+        "answer": "Bicara",
+        "point": 20,
+        "QuestionId": 75
+    },
+    {
+        "answer": "Periksa Gigi",
+        "point": 9,
+        "QuestionId": 75
+    },
+    {
+        "answer": "Menyanyi",
+        "point": 5,
+        "QuestionId": 75
+    },
+    {
+        "answer": "Laci",
+        "point": 40,
+        "QuestionId": 76
+    },
+    {
+        "answer": "brankas",
+        "point": 31,
+        "QuestionId": 76
+    },
+    {
+        "answer": "kantong",
+        "point": 14,
+        "QuestionId": 76
+    },
+    {
+        "answer": "kolong ranjang",
+        "point": 8,
+        "QuestionId": 76
+    },
+    {
+        "answer": "Bawah rak",
+        "point": 7,
+        "QuestionId": 76
+    },
+    {
+        "answer": "Nasi Goreng",
+        "point": 39,
+        "QuestionId": 77
+    },
+    {
+        "answer": "Bakso",
+        "point": 21,
+        "QuestionId": 77
+    },
+    {
+        "answer": "Roti Bakar",
+        "point": 17,
+        "QuestionId": 77
+    },
+    {
+        "answer": "Martabak",
+        "point": 10,
+        "QuestionId": 77
+    },
+    {
+        "answer": "Ayam Bakar",
+        "point": 7,
+        "QuestionId": 77
+    },
+    {
+        "answer": "Sampah",
+        "point": 39,
+        "QuestionId": 78
+    },
+    {
+        "answer": "Piring",
+        "point": 21,
+        "QuestionId": 78
+    },
+    {
+        "answer": "Gelas",
+        "point": 17,
+        "QuestionId": 78
+    },
+    {
+        "answer": "Botol",
+        "point": 10,
+        "QuestionId": 78
+    },
+    {
+        "answer": "Uang",
+        "point": 39,
+        "QuestionId": 79
+    },
+    {
+        "answer": "Dompet",
+        "point": 21,
+        "QuestionId": 79
+    },
+    {
+        "answer": "Handphone",
+        "point": 17,
+        "QuestionId": 79
+    },
+    {
+        "answer": "Kunci",
+        "point": 10,
+        "QuestionId": 79
+    },
+    {
+        "answer": "Kacamata",
+        "point": 7,
+        "QuestionId": 79
+    },
+    {
+        "answer": "Kodok",
+        "point": 39,
+        "QuestionId": 80
+    },
+    {
+        "answer": "kepiting",
+        "point": 21,
+        "QuestionId": 80
+    },
+    {
+        "answer": "kerang",
+        "point": 17,
+        "QuestionId": 80
+    },
+    {
+        "answer": "semut",
+        "point": 10,
+        "QuestionId": 80
+    },
+    {
+        "answer": "nyamuk",
+        "point": 7,
+        "QuestionId": 80
+    },
+    {
+        "answer": "dicuci",
+        "point": 39,
+        "QuestionId": 81
+    },
+    {
+        "answer": "digunting",
+        "point": 21,
+        "QuestionId": 81
+    },
+    {
+        "answer": "diambil",
+        "point": 17,
+        "QuestionId": 81
+    },
+    {
+        "answer": "menangis",
+        "point": 10,
+        "QuestionId": 81
+    },
+    {
+        "answer": "teriak",
+        "point": 7,
+        "QuestionId": 81
+    },
+    {
+        "answer": "Tangan",
+        "point": 39,
+        "QuestionId": 82
+    },
+    {
+        "answer": "Kaki",
+        "point": 21,
+        "QuestionId": 82
+    },
+    {
+        "answer": "Wajah",
+        "point": 17,
+        "QuestionId": 82
+    },
+    {
+        "answer": "Leher",
+        "point": 10,
+        "QuestionId": 82
+    },
+    {
+        "answer": "Gitar",
+        "point": 39,
+        "QuestionId": 83
+    },
+    {
+        "answer": "Drum",
+        "point": 21,
+        "QuestionId": 83
+    },
+    {
+        "answer": "Bass",
+        "point": 17,
+        "QuestionId": 83
+    },
+    {
+        "answer": "Mic",
+        "point": 10,
+        "QuestionId": 83
+    },
+    {
+        "answer": "Sound",
+        "point": 7,
+        "QuestionId": 83
+    },
+    {
+        "answer": "Lintah",
+        "point": 39,
+        "QuestionId": 84
+    },
+    {
+        "answer": "Lebah",
+        "point": 21,
+        "QuestionId": 84
+    },
+    {
+        "answer": "Cacing",
+        "point": 17,
+        "QuestionId": 84
+    },
+    {
+        "answer": "Tokek",
+        "point": 10,
+        "QuestionId": 84
+    },
+    {
+        "answer": "Kelelawar",
+        "point": 7,
+        "QuestionId": 84
+    },
+    {
+        "answer": "Capek",
+        "point": 39,
+        "QuestionId": 85
+    },
+    {
+        "answer": "Manja",
+        "point": 21,
+        "QuestionId": 85
+    },
+    {
+        "answer": "Takut",
+        "point": 17,
+        "QuestionId": 85
+    },
+    {
+        "answer": "Ngantuk",
+        "point": 10,
+        "QuestionId": 85
+    },
+    {
+        "answer": "Sakit",
+        "point": 7,
+        "QuestionId": 85
+    },
+    {
+        "answer": "Suka Ngemil",
+        "point": 39,
+        "QuestionId": 86
+    },
+    {
+        "answer": "Makan Terus",
+        "point": 21,
+        "QuestionId": 86
+    },
+    {
+        "answer": "Stres",
+        "point": 17,
+        "QuestionId": 86
+    },
+    {
+        "answer": "Keturunan",
+        "point": 10,
+        "QuestionId": 86
+    },
+    {
+        "answer": "Kurang Olahraga",
+        "point": 7,
+        "QuestionId": 86
+    },
+    {
+        "answer": "Toilet",
+        "point": 39,
+        "QuestionId": 87
+    },
+    {
+        "answer": "Kaca",
+        "point": 21,
+        "QuestionId": 87
+    },
+    {
+        "answer": "Lemari",
+        "point": 17,
+        "QuestionId": 87
+    },
+    {
+        "answer": "Pohon",
+        "point": 10,
+        "QuestionId": 87
+    },
+    {
+        "answer": "Kuburan",
+        "point": 7,
+        "QuestionId": 87
+    },
+    {
+        "answer": "Kopi",
+        "point": 39,
+        "QuestionId": 88
+    },
+    {
+        "answer": "Teh",
+        "point": 21,
+        "QuestionId": 88
+    },
+    {
+        "answer": "Cengkeh",
+        "point": 17,
+        "QuestionId": 88
+    },
+    {
+        "answer": "Karet",
+        "point": 10,
+        "QuestionId": 88
+    },
+    {
+        "answer": "Coklat",
+        "point": 7,
+        "QuestionId": 88
+    },
+    {
+        "answer": "petir",
+        "point": 39,
+        "QuestionId": 89
+    },
+    {
+        "answer": "Hantu",
+        "point": 21,
+        "QuestionId": 89
+    },
+    {
+        "answer": "Gelap",
+        "point": 17,
+        "QuestionId": 89
+    },
+    {
+        "answer": "Marah",
+        "point": 10,
+        "QuestionId": 89
+    },
+    {
+        "answer": "Buruk",
+        "point": 7,
+        "QuestionId": 89
+    },
+    {
+        "answer": "Saipul Jamil",
+        "point": 39,
+        "QuestionId": 90
+    },
+    {
+        "answer": "Ariel",
+        "point": 21,
+        "QuestionId": 90
+    },
+    {
+        "answer": "Hengky",
+        "point": 17,
+        "QuestionId": 90
+    },
+    {
+        "answer": "Mike lewis",
+        "point": 10,
+        "QuestionId": 90
+    },
+    {
+        "answer": "Adjie Pangestu",
+        "point": 7,
+        "QuestionId": 90
+    },
+    {
+        "answer": "Goal",
+        "point": 39,
+        "QuestionId": 91
+    },
+    {
+        "answer": "Offside",
+        "point": 21,
+        "QuestionId": 91
+    },
+    {
+        "answer": "Penalty",
+        "point": 17,
+        "QuestionId": 91
+    },
+    {
+        "answer": "Kartu Kuning",
+        "point": 10,
+        "QuestionId": 91
+    },
+    {
+        "answer": "Kartu Merah",
+        "point": 7,
+        "QuestionId": 91
+    },
+    {
+        "answer": "Daun",
+        "point": 39,
+        "QuestionId": 92
+    },
+    {
+        "answer": "Air Hujan",
+        "point": 21,
+        "QuestionId": 92
+    },
+    {
+        "answer": "Buah",
+        "point": 17,
+        "QuestionId": 92
+    },
+    {
+        "answer": "Layang - layang",
+        "point": 10,
+        "QuestionId": 92
+    },
+    {
+        "answer": "Ranting Pohon",
+        "point": 7,
+        "QuestionId": 92
+    },
+    {
+        "answer": "Buaya",
+        "point": 39,
+        "QuestionId": 93
+    },
+    {
+        "answer": "Ikan",
+        "point": 21,
+        "QuestionId": 93
+    },
+    {
+        "answer": "Kodok",
+        "point": 17,
+        "QuestionId": 93
+    },
+    {
+        "answer": "Ular",
+        "point": 10,
+        "QuestionId": 93
+    },
+    {
+        "answer": "Kadal",
+        "point": 7,
+        "QuestionId": 93
+    },
+    {
+        "answer": "Dapat di ajak Curhat",
+        "point": 39,
+        "QuestionId": 94
+    },
+    {
+        "answer": "Saling Berbagi",
+        "point": 21,
+        "QuestionId": 94
+    },
+    {
+        "answer": "Bukang Pasangan",
+        "point": 17,
+        "QuestionId": 94
+    },
+    {
+        "answer": "Pacar Orang",
+        "point": 10,
+        "QuestionId": 94
+    },
+    {
+        "answer": "Bangkai",
+        "point": 39,
+        "QuestionId": 95
+    },
+    {
+        "answer": "Pakaian",
+        "point": 21,
+        "QuestionId": 95
+    },
+    {
+        "answer": "Mayat",
+        "point": 17,
+        "QuestionId": 95
+    },
+    {
+        "answer": "Sampah",
+        "point": 10,
+        "QuestionId": 95
+    },
+    {
+        "answer": "Kayu",
+        "point": 7,
+        "QuestionId": 95
+    },
+    {
+        "answer": "Kena razia satgas",
+        "point": 39,
+        "QuestionId": 96
+    },
+    {
+        "answer": "Polisi provos lewat",
+        "point": 21,
+        "QuestionId": 96
+    },
+    {
+        "answer": "Liat platnomor terbalik",
+        "point": 17,
+        "QuestionId": 96
+    },
+    {
+        "answer": "gapake masker",
+        "point": 10,
+        "QuestionId": 96
+    },
+    {
+        "answer": "Kapal Permukaan",
+        "point": 39,
+        "QuestionId": 97
+    },
+    {
+        "answer": "Kapal Selam",
+        "point": 21,
+        "QuestionId": 97
+    },
+    {
+        "answer": "Kapal Mengambang",
+        "point": 17,
+        "QuestionId": 97
+    },
+    {
+        "answer": "Kapal Bantalan Udara",
+        "point": 10,
+        "QuestionId": 97
+    },
+    {
+        "answer": "Kapal Titanic",
+        "point": 7,
+        "QuestionId": 97
+    },
+    {
+        "answer": "Madame Tussaud",
+        "point": 39,
+        "QuestionId": 98
+    },
+    {
+        "answer": "Keunkenhoff",
+        "point": 21,
+        "QuestionId": 98
+    },
+    {
+        "answer": "Madurondam utrecht",
+        "point": 17,
+        "QuestionId": 98
+    },
+    {
+        "answer": "Vlieland",
+        "point": 10,
+        "QuestionId": 98
+    },
+    {
+        "answer": "Bayangan",
+        "point": 39,
+        "QuestionId": 99
+    },
+    {
+        "answer": "Bulan",
+        "point": 21,
+        "QuestionId": 99
+    },
+    {
+        "answer": "Matahari",
+        "point": 17,
+        "QuestionId": 99
+    },
+    {
+        "answer": "Kompas",
+        "point": 10,
+        "QuestionId": 99
+    },
+    {
+        "answer": "Pasangan Suami Istri",
+        "point": 39,
+        "QuestionId": 100
+    },
+    {
+        "answer": "Pasangan Suami Takut Istri",
+        "point": 21,
+        "QuestionId": 100
+    },
+    {
+        "answer": "Suami Takut Istri",
+        "point": 17,
+        "QuestionId": 100
+    },
+    {
+        "answer": "Pasangan bukan suami istri",
+        "point": 10,
+        "QuestionId": 100
     }
 ]
