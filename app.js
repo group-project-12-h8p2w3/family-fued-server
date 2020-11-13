@@ -4,7 +4,7 @@ const PORT = 3000
 const http = require('http').createServer(app)
 const io = require('socket.io')(http)
 const cors = require('cors') 
-const { Question, Answer } = require('./models/')
+const { Question, Answer, Sequelize } = require('./models/')
 
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
@@ -16,6 +16,7 @@ let questions = []
 let answers = []
 let thisRoundAnswer = []
 let answered = []
+let time = 10
 
 io.on('connection', (socket) => {
     console.log('a user connected')
@@ -39,7 +40,9 @@ io.on('connection', (socket) => {
 
     socket.on('fetchQuestion', () => {
         const option = {
-            include: Answer
+            include: Answer,
+            order: [Sequelize.fn('random')], limit: 5
+
         }
         Question.findAll(option)
             .then(data => {
@@ -60,22 +63,16 @@ io.on('connection', (socket) => {
             })
     })
 
-    socket.on('getQuestion', () => {
-        const question = questions.pop()
-        const answer = answers.pop()
-        io.emit('questionsList', {question, answer})
-    })
-
     socket.on('compareAnswer', (payload) => {
         let isTrue = false
         let index
         console.log(thisRoundAnswer)
         for (let i = 0; i < thisRoundAnswer.length; i++) {
-            const answer = thisRoundAnswer[i].answer
-            if (answer === payload.answer) {
+            const answer = thisRoundAnswer[i].answer.toLowerCase()
+            if (answer === payload.answer.toLowerCase()) {
                 isTrue = true
                 index = i
-                answers.splice(i, 1)
+                thisRoundAnswer.splice(i, 1)
             }
         }
         const data = {
@@ -88,6 +85,28 @@ io.on('connection', (socket) => {
     socket.on('sendMessage', (msg) => {
         messages.push(msg)
         io.emit('messages', messages)
+    })
+
+    socket.on('timer', () => {
+        time -= 1;
+        io.emit('fetchTime', time)
+    })
+    socket.on('resetTimer', () => {
+        time = 10
+        io.emit('fetchTime', time)
+    })
+    socket.on('getQuestion', ()=> {
+        if(questions.length){
+            const question = questions.pop()
+            const answer = answers.pop()
+            thisRoundAnswer = answer
+            io.emit('questionsList', {question, answer})
+        }
+        else {
+            const question = ''
+            const answer = ''
+            io.emit('questionsList', {question, answer})
+        }
     })
 })
 
