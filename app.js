@@ -15,8 +15,8 @@ let messages = []
 let questions = []
 let answers = []
 let thisRoundAnswer = []
-let answered = []
-let time = 10
+let time = 20
+let gameStart = false
 
 io.on('connection', (socket) => {
     console.log('a user connected')
@@ -27,15 +27,26 @@ io.on('connection', (socket) => {
     })
 
     socket.on('enterGame', () => {
-        const data = userLogin.map(el => {
-            const scoreboard = {
-                username: el,
-                score: 0
-            }
-            return scoreboard
-        })
-        userLogin = []
-        io.emit('fetchEnteredUser', data)
+        if(!gameStart) {
+            io.emit('gameStart', gameStart)
+            gameStart = true
+            const data = userLogin.map(el => {
+                const scoreboard = {
+                    username: el,
+                    score: 0
+                }
+                return scoreboard
+            })
+            userLogin = []
+            io.emit('fetchEnteredUser', data)
+        } else {
+            io.emit('gameStart', gameStart)
+        }
+    })
+
+    socket.on('finish', () => {
+        gameStart = false
+        io.emit('gameStart', gameStart)
     })
     
     socket.on('fetchQuestion', () => {
@@ -65,8 +76,12 @@ io.on('connection', (socket) => {
 
     socket.on('compareAnswer', (payload) => {
         let isTrue = false
+<<<<<<< HEAD
         let id
         console.log(thisRoundAnswer)
+=======
+        let index
+>>>>>>> 896d29d2e45b52db8dd890b1527a6de84994defb
         for (let i = 0; i < thisRoundAnswer.length; i++) {
             const answer = thisRoundAnswer[i].answer.toLowerCase()
             const thisId = thisRoundAnswer[i].id
@@ -80,22 +95,25 @@ io.on('connection', (socket) => {
             isTrue, id,
             user: payload.user
         }
-        io.emit('compareAnswer', data)
-    })
-
-    socket.on('sendMessage', (msg) => {
-        messages.push(msg)
+        const message = {
+            isTrue,
+            answer: payload.answer,
+            user: payload.user
+        }
+        messages.unshift(message)
         io.emit('messages', messages)
+        io.emit('compareAnswer', data)
     })
 
     socket.on('timer', () => {
         time -= 1;
         io.emit('fetchTime', time)
     })
+
     socket.on('resetTimer', () => {
-        time = 10
         io.emit('fetchTime', time)
     })
+
     socket.on('getQuestion', ()=> {
         if(questions.length){
             const question = questions.pop()
