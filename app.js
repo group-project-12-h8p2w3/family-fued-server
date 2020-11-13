@@ -15,7 +15,8 @@ let messages = []
 let questions = []
 let answers = []
 let thisRoundAnswer = []
-let time = 10
+let time = 20
+let gameStart = false
 
 io.on('connection', (socket) => {
     console.log('a user connected')
@@ -26,15 +27,26 @@ io.on('connection', (socket) => {
     })
 
     socket.on('enterGame', () => {
-        const data = userLogin.map(el => {
-            const scoreboard = {
-                username: el,
-                score: 0
-            }
-            return scoreboard
-        })
-        userLogin = []
-        io.emit('fetchEnteredUser', data)
+        if(!gameStart) {
+            io.emit('gameStart', gameStart)
+            gameStart = true
+            const data = userLogin.map(el => {
+                const scoreboard = {
+                    username: el,
+                    score: 0
+                }
+                return scoreboard
+            })
+            userLogin = []
+            io.emit('fetchEnteredUser', data)
+        } else {
+            io.emit('gameStart', gameStart)
+        }
+    })
+
+    socket.on('finish', () => {
+        gameStart = false
+        io.emit('gameStart', gameStart)
     })
 
     socket.on('fetchQuestion', () => {
@@ -87,18 +99,15 @@ io.on('connection', (socket) => {
         io.emit('compareAnswer', data)
     })
 
-    socket.on('sendMessage', (data) => {
-        
-    })
-
     socket.on('timer', () => {
         time -= 1;
         io.emit('fetchTime', time)
     })
+
     socket.on('resetTimer', () => {
-        time = 10
         io.emit('fetchTime', time)
     })
+
     socket.on('getQuestion', ()=> {
         if(questions.length){
             const question = questions.pop()
