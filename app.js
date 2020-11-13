@@ -15,7 +15,6 @@ let messages = []
 let questions = []
 let answers = []
 let thisRoundAnswer = []
-let answered = []
 let time = 10
 
 io.on('connection', (socket) => {
@@ -66,7 +65,6 @@ io.on('connection', (socket) => {
     socket.on('compareAnswer', (payload) => {
         let isTrue = false
         let index
-        console.log(thisRoundAnswer)
         for (let i = 0; i < thisRoundAnswer.length; i++) {
             const answer = thisRoundAnswer[i].answer.toLowerCase()
             if (answer === payload.answer.toLowerCase()) {
@@ -79,12 +77,18 @@ io.on('connection', (socket) => {
             isTrue, index,
             user: payload.user
         }
+        const message = {
+            isTrue,
+            answer: payload.answer,
+            user: payload.user
+        }
+        messages.unshift(message)
+        io.emit('messages', messages)
         io.emit('compareAnswer', data)
     })
 
-    socket.on('sendMessage', (msg) => {
-        messages.push(msg)
-        io.emit('messages', messages)
+    socket.on('sendMessage', (data) => {
+        
     })
 
     socket.on('timer', () => {
