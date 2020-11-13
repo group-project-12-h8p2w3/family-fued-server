@@ -16,7 +16,7 @@ let questions = []
 let answers = []
 let thisRoundAnswer = []
 let time = 20
-let gameStart = false
+let gameStart
 
 io.on('connection', (socket) => {
     console.log('a user connected')
