@@ -48,7 +48,7 @@ io.on('connection', (socket) => {
         gameStart = false
         io.emit('gameStart', gameStart)
     })
-
+    
     socket.on('fetchQuestion', () => {
         const option = {
             include: Answer,
@@ -76,17 +76,19 @@ io.on('connection', (socket) => {
 
     socket.on('compareAnswer', (payload) => {
         let isTrue = false
-        let index
+        let id
+
         for (let i = 0; i < thisRoundAnswer.length; i++) {
             const answer = thisRoundAnswer[i].answer.toLowerCase()
+            const thisId = thisRoundAnswer[i].id
             if (answer === payload.answer.toLowerCase()) {
                 isTrue = true
-                index = i
+                id = thisId
                 thisRoundAnswer.splice(i, 1)
             }
         }
         const data = {
-            isTrue, index,
+            isTrue, id,
             user: payload.user
         }
         const message = {
