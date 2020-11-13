@@ -46,6 +46,7 @@ io.on('connection', (socket) => {
 
     socket.on('finish', () => {
         gameStart = false
+        messages= []
         io.emit('gameStart', gameStart)
     })
     
@@ -66,7 +67,6 @@ io.on('connection', (socket) => {
                 const question = questions.pop()
                 const answer = answers.pop()
                 thisRoundAnswer = answer
-                console.log(answers)
                 io.emit('questionsList', {question, answer})
             })
             .catch(err => {
@@ -107,6 +107,7 @@ io.on('connection', (socket) => {
     })
 
     socket.on('resetTimer', () => {
+        time = 20
         io.emit('fetchTime', time)
     })
 
